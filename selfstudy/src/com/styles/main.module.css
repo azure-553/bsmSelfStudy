@@ -1,0 +1,23 @@
+.wrap{margin: 0; width: 100%; height: 400px;}
+.backBox{position: absolute;
+          width: 1000px; height: 700px;
+          left: 250px; top: 300px;
+          background: linear-gradient(270deg, #00D2AD 0%, #5100FD 0%, #FDC300 0.01%, rgba(239, 194, 2, 0.978282) 0.02%, rgba(3, 236, 222, 0.973315) 0.02%, rgba(49, 230, 109, 0.817998) 40.03%, rgba(81, 225, 30, 0.71) 67.84%, rgba(8, 201, 45, 0.63) 81.41%);
+          border-radius: 91px;
+          box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.3);}
+.backBox .subImg{ position: relative; left: 210px; top: -170px; width: 600px; height: 300px;}
+
+.backBox .applicationBtn{position: absolute; left: 150px; top: 200px; width: 200px; height: 200px; background-color: rgb(255, 255, 255); border: none; border-radius: 15px; box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.3);}
+.backBox .applicationBtn p{margin: 0 auto; font-size: 40px; font-weight: 700;}
+.backBox .applicationBtn span{color: #FDC300;}
+.backBox .applicationBtn a{text-decoration: none; color: black;}
+
+.backBox .cancelBtn{position: absolute; left: 400px; top: 200px; width: 200px; height: 200px; background-color: rgb(255, 255, 255); border: none; border-radius: 15px; box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.3);}
+.backBox .cancelBtn p{margin: 0 auto; font-size: 40px; font-weight: 700;}
+.backBox .cancelBtn span{color: #B41818;}
+.backBox .cancelBtn a{text-decoration: none; color: black;}
+
+.backBox .lookupBtn{position: absolute; right: 150px; top: 200px; width: 200px; height: 200px; background-color: rgb(255, 255, 255); border: none; border-radius: 15px; box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.3);}
+.backBox .lookupBtn p{margin: 0 auto; font-size: 40px; font-weight: 700;}
+.backBox .lookupBtn span{color:  #020069;}
+.backBox .lookupBtn a{text-decoration: none; color: black;}

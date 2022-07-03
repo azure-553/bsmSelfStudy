@@ -1,0 +1,15 @@
+.wrap{margin: 0; width: 100%; height: 400px;}
+.backBox{position: absolute;
+          width: 1000px; height: 700px;
+          left: 260px; top: 300px;
+          background: linear-gradient(270deg, #00D2AD 0%, #5100FD 0%, #FDC300 0.01%, rgba(239, 194, 2, 0.978282) 0.02%, rgba(3, 236, 222, 0.973315) 0.02%, rgba(49, 230, 109, 0.817998) 40.03%, rgba(81, 225, 30, 0.71) 67.84%, rgba(8, 201, 45, 0.63) 81.41%);
+          border-radius: 91px;
+          box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.3);}
+.backBox .subImg{ position: relative; left: 210px; top: -170px; width: 600px; height: 300px;}
+
+.backBox .nBox{position: relative; left: 100px; top: -150px; width: 800px; height: 350px; border-radius: 12px; background-color: aliceblue;}
+.backBox .nTitle{margin: 0 auto; padding-top: 30px; text-align: center; font-size: 40px; font-weight: 800;}
+.backBox .nTitle span{color: #700000;}
+.backBox .nText{padding-top: 10px;}
+.backBox .nText li{padding-top: 20px; font-size: 20px; font-weight: 700;}
+.backBox .bBtn{position: relative; width:180px; height:65px; left: 40%; top: -18%; font-size: 40px; font-weight: 700; border-radius: 12px; border: 0; outline: 0;}
